@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <input id="num1" type="number" placeholder="num1" name="num1">
+                    </form>
+                </div>
+                <div class="col">
+                    <form>
+                        <select name="cars" id="num2">
+                            <optgroup label="operand">
+                                <option value="*">*</option>
+                                <option value="+">+</option>
+                                <option value="/">/</option>
+                                <option value="-">-</option>
+                            </optgroup>
+                        </select>
+                    </form>
+                </div>
+                <div class="col">
+                    <form>
+                        <input id="num3" type="number" placeholder="num2" name="num3">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <button onclick="myFunction()">submit</button>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <form>
+                        <input id="ans" type="text" placeholder="ans">
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <pre>
+                        *-multiply
+                        +-add
+                        /-divide
+                        --subtract
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
